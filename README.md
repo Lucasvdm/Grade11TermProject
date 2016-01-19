@@ -14,4 +14,6 @@ to determine if they are a match.
 The comparison is by no means an official or standardized test.  It works sometimes and is very finicky.  The acceptable
 margin of error between the two signatures can be edited in the code to increase or decrease how scrict the comparison is.
 
+I didn't use the NetBeans IDE GUI Builder for this one, I made the GUI by hardcoding it.  That was... not fun, to say the least.
+
 A runnable .jar can be found in the dist.zip file.
