@@ -6,7 +6,9 @@ public class CompareSignatures {
     public static double moe = 3;
     public static double ratioMoe = 0.333;
 
-    //
+    //Performs final comparison and scoring of signatures by comparing similar features such as
+    //ratio of width to height and average coloured pixel locations (based on how many times the
+    //lines in a theoretical grid cross over the coloured pixels)
     public static boolean compareSignatures(int rows, int columns, int[] croppedDrawn, int[] croppedSaved) {
         boolean match = false;
         int[] drawnRowLines = AnalyzeSignatures.calculateRows(Scratchpad.scratchpad, rows, croppedDrawn);
