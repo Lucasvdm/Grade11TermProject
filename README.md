@@ -14,7 +14,7 @@ to determine if they are a match.
 The comparison is by no means an official or standardized test.  It works sometimes and is very finicky.  The acceptable
 margin of error between the two signatures can be edited in the code to increase or decrease how scrict the comparison is.
 
-Please note that the mouse should be moved relatively slowly while drawing the signature in order to create a smooth line for
+Please note that the mouse should be moved relatively slowly while drawing the signature in order to create a smooth, solid line for
 aesthetics and ease of comparison.
 
 I didn't use the NetBeans IDE GUI Builder for this one, I made the GUI by hardcoding it.  That was... not fun, to say the least.
